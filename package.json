@@ -4,15 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "body-parser": "^1.17.1",
     "csv-parse": "^1.2.0",
-    "deepstream.io-client-js": "^2.1.5",
-    "express": "^4.15.2",
-    "webtask-tools": "^3.2.0"
+    "deepstream.io-client-js": "^2.1.5"
   }
 }
