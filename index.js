@@ -53,7 +53,7 @@ function startIrregularUpdates(client, stockList) {
     })
 }
 
-const client = deepstream('wss://013.deepstreamhub.com?apiKey=5a3f811c-1bef-45c4-925d-c0b99b9910e2')
+const client = deepstream('wss://154.deepstreamhub.com?apiKey=852d4585-2693-43ea-953a-4f95a7c51202')
 client.login({}, () => {
   nasdaqList = client.record.getList('nasdaq')
   nasdaqList.whenReady((list) => {
